@@ -66,15 +66,15 @@
 
     main{
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(6, 200px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 200px);
         gap: 10px;
         grid-template-areas: 
-        "a a a b b b"
-        "c c c d d d"
-        "e e e f f f"
-        "g g g h h h"
-        "i i i j j j";
+        "a a"
+        "a a"
+        "b c"
+        "d e"
+        "f f";
     }
     
     div{
@@ -129,7 +129,7 @@
             grid-template-areas: 
             "a a a a b b"
             "a a a a b b"
-            "c c d d d e"
+            "a a a a c c"
             "f g g h h i"
             ""
             "k k k k k j";
