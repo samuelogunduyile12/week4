@@ -21,7 +21,7 @@
         }
 
         div{
-            background-color: red;
+            background-color: purple;
         }
 
         main :nth-child(1){
@@ -78,7 +78,7 @@
     }
     
     div{
-        background-color: blue;
+        background-color: greenyellow;
     }
     
     main :nth-child(1){
@@ -136,7 +136,7 @@
         }
         
         div{
-            background-color: purple;
+            background-color: yellow;
         }
         
         main :nth-child(1){
